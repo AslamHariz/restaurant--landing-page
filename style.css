@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Dela Gothic One", cursive;
+  color: #f3aa0bbe;
+}
+
+body {
+  background-image: linear-gradient(
+      rgba(16, 8, 48, 0.689),
+      rgba(3, 32, 60, 0.694)
+    ),
+    url("./assets/pexels-maxyne-barcel-10402282 1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: cover;
+}
+
+.container {
+  float: left;
+  margin-left: 40px;
+  margin-top: 25px;
+  margin-right: 40px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  margin-left: 450px;
+  margin-top: -53px;
+  margin-bottom: auto;
+  padding: 0;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.list-item {
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.button-small {
+  border-width: 0;
+  font-size: 20px;
+  background-color: #ff6263;
+  color: #fff;
+  text-indent: 20px;
+  margin-left: 1280px;
+  margin-top: -36px;
+  display: flex;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+h1.hero-heading {
+  margin-top: 70px;
+  margin-right: 50px;
+  margin-left: 30px;
+  text-align: center;
+  font-size: 120px;
+}
+
+button.button-large {
+  border-width: 0;
+  font-size: 30px;
+  background-color: #ff6263;
+  color: #fff;
+  text-indent: 58px;
+  margin-left: 580px;
+  margin-top: 13px;
+  display: flex;
+  padding-top: 17px;
+  padding-bottom: 20px;
+  padding-right: 59px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.scroll {
+  margin-left: 1179px;
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
